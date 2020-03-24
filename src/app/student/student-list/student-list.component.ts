@@ -22,6 +22,6 @@ export class StudentListComponent implements OnInit {
         console.debug("Student-list Users:", res); 
       }
       ,err => { console.error(err); }
-    );  }
-
+    );  
+  }
 }
